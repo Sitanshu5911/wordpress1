@@ -1,0 +1,6 @@
+CREATE DATABASE test_db;
+
+CREATE USER 'sitanshu'@'localhost' IDENTIFIED BY 'nexus.myftp.org@5911';
+
+GRANT ALL PRIVILEGES ON server_db . * TO 'sitanshu'@'localhost';
+
