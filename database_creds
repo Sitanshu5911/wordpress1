@@ -1,4 +1,4 @@
-CREATE DATABASE test_db;
+CREATE DATABASE server_db;
 
 CREATE USER 'sitanshu'@'localhost' IDENTIFIED BY 'nexus.myftp.org@5911';
 
