@@ -217,16 +217,31 @@
 ## Pushing WordPress files to a GitHub repository
 
    * Create a New repository on Github.
-      Go to the Github website.
-      Click on the "+" sign in the top right corner and select "New repository."
-      Give your repository a name and configure other settings if needed.
-      Click on "Create repository."
+       Go to the Github website.
+       Click on the "+" sign in the top right corner and select "New repository."
+       Give your repository a name and configure other settings if needed.
+       Click on "Create repository."
      
    *  Then I clone the repository url through my ubuntu server with below command.
 
-       git clone <your repository_url>
+        git clone https://github.com/Sitanshu5911/wordpress1.git
 
-   *   
+   *  Once the files are in place, navigate to the repository's directory using the cd command.
+
+        cd /task1/wordpress1
+
+   *  For Push changes to Github use the following commands to push the changes to Github.
+
+       sudo git add .
+       sudo git commit -m "words files are push"
+       sudo git push origin main  
+
+   *   To check the status of a Git repository use the below command.
+
+       sudo git status
+
+   * All Wordpress files are pushed to my Github Repository. 
+
 
 
 
