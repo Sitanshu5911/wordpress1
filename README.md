@@ -224,7 +224,10 @@
      
    *  Then I clone the repository url through my ubuntu server with below command.
 
-       git clone 
+       git clone <your repository_url>
+
+   *   
+
 
 
     
