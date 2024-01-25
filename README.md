@@ -227,14 +227,7 @@
        git clone 
 
 
-      The commands for further activities are 
-     1-git clone url
-     2-git add .
-     3-git commit -m
-     4-git push origin main
-
-
-
+    
 
 
 
