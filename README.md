@@ -1,7 +1,6 @@
 ## Welcome to the documentation for hosting and deploying of WordPress website on VPS Server.
 
-## This README.md file provides a step-by-step guide for setting up an automated deployment process for a WordPress website using the Nginx web server and the LEMP stack (Linux, Nginx, 
-   MySQL, PHP). The deployment process outlined here adheres to security best practices and aims to ensure optimal performance for your WordPress site.
+## This README.md file provides a step-by-step guide for setting up an automated deployment process for a WordPress website using the Nginx web server and the LEMP stack (Linux, Nginx, MySQL, PHP). The deployment process outlined here adheres to security best practices and aims to ensure optimal performance for your WordPress site.
 
 
 ## Prerequisites
