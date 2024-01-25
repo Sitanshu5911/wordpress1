@@ -1,4 +1,4 @@
-## Welcome to the documentation for hosting and deploying of WordPress website on VPS Server.
+![cast_auto_x2_light_ai](https://github.com/Sitanshu5911/wordpress1/assets/157113650/3d079679-5f49-4430-9cd6-2689ba3cf9aa)## Welcome to the documentation for hosting and deploying of WordPress website on VPS Server.
 
 ## This README.md file provides a step-by-step guide for setting up an automated deployment process for a WordPress website using the Nginx web server and the LEMP stack (Linux, Nginx, 
    MySQL, PHP). The deployment process outlined here adheres to security best practices and aims to ensure optimal performance for your WordPress site.
@@ -208,7 +208,7 @@
 
       sudo apt-get install python-certbot-nginx
 
-   *  To run Certbot to Obtain and Install SSL Certificate type the following command. Certbot will automatically configure Nginx to use the obtained SSL certificate for the specified domain.
+   * To run Certbot to Obtain and Install SSL Certificate type the following command. Certbot will automatically configure Nginx to use the obtained SSL certificate for the specified domain.
 
       sudo certbot --nginx -d nexus.myftp.org
 
@@ -216,12 +216,29 @@
      renewal reminders and other important notifications. Additionally, it will prompt you to agree to the terms of service. Once the process is complete, your Nginx server should be 
      configured to use the Let's Encrypt SSL certificate, securing the communication between your server and clients.
 
-## Push the Wordpress Repositary to Github.
+## Pushing WordPress files to a GitHub repository
+
+   * Create a New repository on Github.
+      Go to the Github website.
+      Click on the "+" sign in the top right corner and select "New repository."
+      Give your repository a name and configure other settings if needed.
+      Click on "Create repository."
+     
+   *  Then I clone the repository url through my ubuntu server with below command.
+
+       git clone 
+
+
+      The commands for further activities are 
+     1-git clone url
+     2-git add .
+     3-git commit -m
+     4-git push origin main
 
 
 
 
- 
+
 
     
 
