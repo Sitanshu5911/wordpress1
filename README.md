@@ -214,7 +214,11 @@
 
    * After running these commands, Certbot will guide you through an interactive process to set up the SSL certificate for your domain. It will ask you to provide an email address for 
      renewal reminders and other important notifications. Additionally, it will prompt you to agree to the terms of service. Once the process is complete, your Nginx server should be 
-     configured to use the Let's Encrypt SSL certificate, securing the communication between your server and clients.  
+     configured to use the Let's Encrypt SSL certificate, securing the communication between your server and clients.
+
+## Push the Wordpress Repositary to Github.
+
+
 
 
  
